@@ -1,7 +1,7 @@
 import { Coffee } from "./coffee";
 
 export class CoffeeWithMilk extends Coffee {
-    price(): number {
-        return super.price() + 0.10;
-    }
+	price(): number {
+		return super.price() + 0.1;
+	}
 }
