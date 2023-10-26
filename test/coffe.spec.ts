@@ -1,4 +1,4 @@
-import { Coffee } from "../src/beverage/coffee";
+import { Coffee } from "../src/beverage/coffee/coffee";
 
 describe("Coffee - price", () => {
 	it("price should be 1.20", () => {

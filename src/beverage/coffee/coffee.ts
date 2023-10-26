@@ -1,4 +1,4 @@
-import { Beverage } from "./beverage.interface";
+import { Beverage } from "../beverage.interface";
 
 export class Coffee implements Beverage {
 	price(): number {

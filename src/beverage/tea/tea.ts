@@ -1,4 +1,4 @@
-import { Beverage } from "./beverage.interface";
+import { Beverage } from "../beverage.interface";
 
 export class Tea implements Beverage {
 	public price(): number {

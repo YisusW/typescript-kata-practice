@@ -1,4 +1,4 @@
-import { CoffeeWithMilkAndCream } from "../src/beverage/coffee-with-milk-and-cream";
+import { CoffeeWithMilkAndCream } from "../src/beverage/coffee/coffee-with-milk-and-cream";
 
 describe("Coffee with milk and cream cases", () => {
 	it("price should be 1.45", () => {

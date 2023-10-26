@@ -1,4 +1,4 @@
-import { TeaWithMilk } from "../src/beverage/tea-with-milk";
+import { TeaWithMilk } from "../src/beverage/tea/tea-with-milk";
 
 describe("Tea with milk cases", () => {
 	it("price should be 1.60", () => {

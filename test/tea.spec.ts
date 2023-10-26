@@ -1,4 +1,4 @@
-import { Tea } from "../src/beverage/tea";
+import { Tea } from "../src/beverage/tea/tea";
 
 describe("Tea cases", () => {
 	it("price should 1.50", () => {

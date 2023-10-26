@@ -1,4 +1,4 @@
-import { HotChocolateWithMilk } from "../src/beverage/hot-chocolate-with-milk";
+import { HotChocolateWithMilk } from "../src/beverage/chocolate/hot-chocolate-with-milk";
 
 describe("Hot Chocolate with milk cases", () => {
 	it("price should be 1.60", () => {
