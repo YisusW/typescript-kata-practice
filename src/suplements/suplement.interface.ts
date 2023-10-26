@@ -1,4 +1,3 @@
-
 export interface Suplement {
-    getPrice(): number;
+	getPrice(): number;
 }

@@ -1,17 +1,15 @@
 import { Suplement } from "./suplement.interface";
 
-
 export class SuplementContainer {
-    constructor(private suplements: Suplement[]) {}
+	constructor(private readonly suplements: Suplement[]) {}
 
-    getPrice(): number {
+	getPrice(): number {
+		let price = 0;
 
-        let price = 0;
+		this.suplements.forEach((suplement) => {
+			price += suplement.getPrice();
+		});
 
-        this.suplements.forEach((suplement) => {
-            price +=  suplement.getPrice();
-        });
-
-        return price;
-    }
+		return price;
+	}
 }
