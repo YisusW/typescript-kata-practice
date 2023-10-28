@@ -1,7 +1,5 @@
-import { Beverage } from "../src/beverage";
-import { Tea } from "../src/beverage/tea";
-import { Milk } from "../src/suplements/milk";
-import { SuplementContainer } from "../src/suplements/suplement-container";
+import { Beverage, Tea } from "../src/beverage";
+import { Milk, SuplementContainer } from "../src/suplements";
 
 describe("Tea cases", () => {
 	/**

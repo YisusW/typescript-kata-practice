@@ -1,7 +1,5 @@
 import { Coffee } from "../src/beverage/coffee";
-import { Cream } from "../src/suplements/cream";
-import { Milk } from "../src/suplements/milk";
-import { SuplementContainer } from "../src/suplements/suplement-container";
+import { Cream, Milk, SuplementContainer } from "../src/suplements";
 
 describe("Coffee - price", () => {
 	/**
