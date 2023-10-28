@@ -1,5 +1,5 @@
-import { SuplementContainer } from "../../suplements/suplement-container";
-import { Beverage } from "../beverage.interface";
+import { SuplementContainer } from "../suplements/suplement-container";
+import { Beverage } from "./beverage.interface";
 
 export class Tea implements Beverage {
 	constructor(public suplement: SuplementContainer) {}

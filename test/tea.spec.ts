@@ -1,5 +1,5 @@
 import { Beverage } from "../src/beverage";
-import { Tea } from "../src/beverage/tea/tea";
+import { Tea } from "../src/beverage/tea";
 import { Milk } from "../src/suplements/milk";
 import { SuplementContainer } from "../src/suplements/suplement-container";
 

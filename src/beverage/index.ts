@@ -1,2 +1,3 @@
+export { Beverage } from "./beverage.interface";
 export { Coffee } from "./coffee";
-export { Beverage } from "./beverage.interface"
+export { Tea } from "./tea";

@@ -18,7 +18,7 @@ describe("Coffee - price", () => {
 	describe("Suplements - composition with milk", () => {
 		const coffeeWithMilk = () => {
 			const milkSuplement = new SuplementContainer([new Milk()]);
-			
+
 			return new Coffee(milkSuplement);
 		};
 
@@ -36,7 +36,7 @@ describe("Coffee - price", () => {
 			const creamSuplement = new SuplementContainer([new Cream()]);
 
 			return new Coffee(creamSuplement);
-		}
+		};
 
 		it("price should be 1.35", () => {
 			const coffee = coffeeWithCream();
@@ -49,10 +49,10 @@ describe("Coffee - price", () => {
 
 	describe("Suplements - composition with cream and milk", () => {
 		const coffeeWithMilkAndCream = () => {
-			const suplements = [new Cream(), new Milk()]
+			const suplements = [new Cream(), new Milk()];
 
 			return new Coffee(new SuplementContainer(suplements));
-		}
+		};
 
 		it("price should be 1.45", () => {
 			const coffee = coffeeWithMilkAndCream();
