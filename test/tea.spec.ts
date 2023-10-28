@@ -10,7 +10,7 @@ describe("Tea cases", () => {
 	it("price should 1.50", () => {
 		const result = tea.price();
 
-		expect(result).toBeCloseTo(1.5, 0.001);
+		expect(result).toBeCloseTo(1.5, 5);
 	});
 
 	describe("Suplements - composition with milk", () => {
@@ -25,7 +25,7 @@ describe("Tea cases", () => {
 
 			const result = tea.price();
 
-			expect(result).toBeCloseTo(1.6, 0.001);
+			expect(result).toBeCloseTo(1.6, 5);
 		});
 	});
 });
