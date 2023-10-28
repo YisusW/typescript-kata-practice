@@ -57,7 +57,7 @@ describe("Hot Chocolate cases", () => {
 
 			const result = hotChocolate.price();
 
-			expect(result).toBeCloseTo(1.50, 5);
+			expect(result).toBeCloseTo(1.5, 5);
 		});
 	});
 
