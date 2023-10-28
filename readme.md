@@ -1,3 +1,7 @@
+this is a practice conde based in this Fork Repo:
+https://github.com/YisusW/practice_program/tree/master/katas_java/05-refactoring-awful-inheritance-use-with-beverage-prices-kata/src/main/java/beverages
+i like the way how to avoid inheritance and implement composition
+
 ## Features
 
 - [TypeScript](https://www.typescriptlang.org/) (v4)
