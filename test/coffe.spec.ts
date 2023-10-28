@@ -10,7 +10,7 @@ describe("Coffee - price", () => {
 	it("price should be 1.20", () => {
 		const result = coffee.price();
 
-		expect(result).toBeCloseTo(1.2, 0.001);
+		expect(result).toBeCloseTo(1.2, 5);
 	});
 
 	describe("Suplements - composition with milk", () => {
@@ -25,7 +25,7 @@ describe("Coffee - price", () => {
 
 			const result = coffee.price();
 
-			expect(result).toBeCloseTo(1.3, 0.001);
+			expect(result).toBeCloseTo(1.3, 5);
 		});
 	});
 
@@ -41,7 +41,7 @@ describe("Coffee - price", () => {
 
 			const result = coffee.price();
 
-			expect(result).toBeCloseTo(1.35, 0.001);
+			expect(result).toBeCloseTo(1.35, 5);
 		});
 	});
 
@@ -57,7 +57,7 @@ describe("Coffee - price", () => {
 
 			const result = coffee.price();
 
-			expect(result).toBeCloseTo(1.45, 0.001);
+			expect(result).toBeCloseTo(1.45, 5);
 		});
 	});
 });
