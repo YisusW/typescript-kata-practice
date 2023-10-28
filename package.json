@@ -1,7 +1,7 @@
 {
-  "name": "typescript-api-skeleton",
-  "version": "1.0.1",
-  "description": "",
+  "name": "typescript-kata-practice",
+  "version": "1.0.2",
+  "description": "this is a kata about to avoid the inheritance and go to composition instead",
   "main": "index.js",
   "scripts": {
     "start": "node ./dist/src/server.js",
