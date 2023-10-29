@@ -1,7 +1,5 @@
-import { Beverage } from "../src/beverage";
-import { Tea } from "../src/beverage/tea";
-import { Milk } from "../src/suplements/milk";
-import { SuplementContainer } from "../src/suplements/suplement-container";
+import { Beverage, Tea } from "../src/beverage";
+import { Milk, SuplementContainer } from "../src/suplements";
 
 describe("Tea cases", () => {
 	/**
@@ -12,7 +10,7 @@ describe("Tea cases", () => {
 	it("price should 1.50", () => {
 		const result = tea.price();
 
-		expect(result).toBeCloseTo(1.5, 0.001);
+		expect(result).toBeCloseTo(1.5, 5);
 	});
 
 	describe("Suplements - composition with milk", () => {
@@ -27,7 +25,7 @@ describe("Tea cases", () => {
 
 			const result = tea.price();
 
-			expect(result).toBeCloseTo(1.6, 0.001);
+			expect(result).toBeCloseTo(1.6, 5);
 		});
 	});
 });
